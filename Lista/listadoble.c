@@ -51,6 +51,8 @@ void insertar(TLISTA *l, TPOSICION p, TELEMENTO e){
     }
 
     (*l)->longitud++;
+
+    free(aux);
 }
 
 void suprimir(TLISTA* l, TPOSICION p,TELEMENTO e ){
